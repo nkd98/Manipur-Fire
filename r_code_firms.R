@@ -1,3 +1,7 @@
+## Overview: The data about fire incidents was downloaded from https://firms.modaps.eosdis.nasa.gov/active_fire/ .
+## The NASA FIRMS data includes all kinds of fire. To isolate the incidence of fires related to violence, the distance between fires and man-made buildings was used.
+## The data on buildings was downloaded from Open Street Map. Only those incidents of fires were included for which there was at least one building within 1 km.
+
 ## set working directory
 main <- "d:/r_projects/forest_fire"
 setwd(main)
